@@ -28,6 +28,6 @@ public class ResponseJsonServlet extends HttpServlet {
 
         //{"username" : "kim", "age":20}
         String result = objectMapper.writeValueAsString(helloData);
-        response.getWriter().write(result);//
+        response.getWriter().write(result);////
     }
 }
